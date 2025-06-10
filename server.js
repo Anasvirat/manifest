@@ -9,7 +9,7 @@ ffmpeg.setFfmpegPath(path.join(__dirname, 'ffmpeg', 'ffmpeg'));
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const m3u8Input = 'https://example.com/playlist.m3u8';
+const m3u8Input = 'http://ptu.ridsys.in/riptv/live/stream20/index.m3u8';
 const outputDir = path.join(__dirname, 'output');
 const outputFileName = 'StarSports 1Tamil.mpd';
 const outputMpd = path.join(outputDir, outputFileName);
