@@ -1,6 +1,7 @@
 {
-  "name": "m3u8-to-mpd",
+  "name": "hls-to-dash",
   "version": "1.0.0",
+  "description": "Convert M3U8 HLS to MPD (DASH) using Node.js and FFmpeg",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
